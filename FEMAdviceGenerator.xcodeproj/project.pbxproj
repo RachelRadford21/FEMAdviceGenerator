@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB717A86285A3357009C61B0 /* pattern-divider-mobile.svg in Resources */ = {isa = PBXBuildFile; fileRef = AB717A85285A3357009C61B0 /* pattern-divider-mobile.svg */; };
+		AB717A88285A3369009C61B0 /* icon-dice.svg in Resources */ = {isa = PBXBuildFile; fileRef = AB717A87285A3369009C61B0 /* icon-dice.svg */; };
+		AB717A8A285A3390009C61B0 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB717A89285A3390009C61B0 /* Manrope-Regular.ttf */; };
+		AB717A8D285A3490009C61B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717A8C285A3490009C61B0 /* Extensions.swift */; };
 		ABC5460C28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5460B28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift */; };
 		ABC5460E28592E5B00E8C096 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5460D28592E5B00E8C096 /* ContentView.swift */; };
 		ABC5461028592E5C00E8C096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5460F28592E5C00E8C096 /* Assets.xcassets */; };
 		ABC5461328592E5C00E8C096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5461228592E5C00E8C096 /* Preview Assets.xcassets */; };
+		ABC5461B28592FA000E8C096 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5461A28592FA000E8C096 /* ViewModel.swift */; };
+		ABC5461E28592FEB00E8C096 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5461D28592FEB00E8C096 /* AdviceModel.swift */; };
+		ABC546202859300E00E8C096 /* SlipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5461F2859300E00E8C096 /* SlipModel.swift */; };
+		ABC546242859306600E8C096 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC546232859306600E8C096 /* QuoteView.swift */; };
+		ABC8E5F8285A642500F57C6E /* DiceIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E5F7285A642500F57C6E /* DiceIconView.swift */; };
+		ABC8E5FA285A651B00F57C6E /* AdviceNumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */; };
+		ABC8E5FC285A661300F57C6E /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E5FB285A661300F57C6E /* AdviceView.swift */; };
+		ABC8E5FE285A6F0400F57C6E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC8E5FD285A6F0400F57C6E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB717A85285A3357009C61B0 /* pattern-divider-mobile.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pattern-divider-mobile.svg"; sourceTree = "<group>"; };
+		AB717A87285A3369009C61B0 /* icon-dice.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icon-dice.svg"; sourceTree = "<group>"; };
+		AB717A89285A3390009C61B0 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		AB717A8B285A33CB009C61B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB717A8C285A3490009C61B0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ABC5460828592E5B00E8C096 /* FEMAdviceGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEMAdviceGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC5460B28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEMAdviceGeneratorApp.swift; sourceTree = "<group>"; };
 		ABC5460D28592E5B00E8C096 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABC5460F28592E5C00E8C096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC5461228592E5C00E8C096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABC5461A28592FA000E8C096 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ABC5461D28592FEB00E8C096 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
+		ABC5461F2859300E00E8C096 /* SlipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipModel.swift; sourceTree = "<group>"; };
+		ABC546232859306600E8C096 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		ABC8E5F7285A642500F57C6E /* DiceIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceIconView.swift; sourceTree = "<group>"; };
+		ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceNumHeaderView.swift; sourceTree = "<group>"; };
+		ABC8E5FB285A661300F57C6E /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
+		ABC8E5FD285A6F0400F57C6E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +76,18 @@
 		ABC5460A28592E5B00E8C096 /* FEMAdviceGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				AB717A8B285A33CB009C61B0 /* Info.plist */,
 				ABC5460B28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift */,
+				ABC5461A28592FA000E8C096 /* ViewModel.swift */,
 				ABC5460D28592E5B00E8C096 /* ContentView.swift */,
+				ABC5461C28592FC500E8C096 /* Model */,
+				ABC5461928592F6400E8C096 /* Views */,
 				ABC5460F28592E5C00E8C096 /* Assets.xcassets */,
+				AB717A87285A3369009C61B0 /* icon-dice.svg */,
+				AB717A85285A3357009C61B0 /* pattern-divider-mobile.svg */,
+				AB717A89285A3390009C61B0 /* Manrope-Regular.ttf */,
 				ABC5461128592E5C00E8C096 /* Preview Content */,
+				AB717A8C285A3490009C61B0 /* Extensions.swift */,
 			);
 			path = FEMAdviceGenerator;
 			sourceTree = "<group>";
@@ -65,6 +98,27 @@
 				ABC5461228592E5C00E8C096 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABC5461928592F6400E8C096 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABC546232859306600E8C096 /* QuoteView.swift */,
+				ABC8E5FD285A6F0400F57C6E /* CardView.swift */,
+				ABC8E5FB285A661300F57C6E /* AdviceView.swift */,
+				ABC8E5F7285A642500F57C6E /* DiceIconView.swift */,
+				ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABC5461C28592FC500E8C096 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5461D28592FEB00E8C096 /* AdviceModel.swift */,
+				ABC5461F2859300E00E8C096 /* SlipModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB717A86285A3357009C61B0 /* pattern-divider-mobile.svg in Resources */,
+				AB717A8A285A3390009C61B0 /* Manrope-Regular.ttf in Resources */,
 				ABC5461328592E5C00E8C096 /* Preview Assets.xcassets in Resources */,
+				AB717A88285A3369009C61B0 /* icon-dice.svg in Resources */,
 				ABC5461028592E5C00E8C096 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC5460E28592E5B00E8C096 /* ContentView.swift in Sources */,
+				ABC5461E28592FEB00E8C096 /* AdviceModel.swift in Sources */,
+				ABC8E5FA285A651B00F57C6E /* AdviceNumHeaderView.swift in Sources */,
+				AB717A8D285A3490009C61B0 /* Extensions.swift in Sources */,
+				ABC546202859300E00E8C096 /* SlipModel.swift in Sources */,
+				ABC546242859306600E8C096 /* QuoteView.swift in Sources */,
+				ABC5461B28592FA000E8C096 /* ViewModel.swift in Sources */,
+				ABC8E5F8285A642500F57C6E /* DiceIconView.swift in Sources */,
+				ABC8E5FC285A661300F57C6E /* AdviceView.swift in Sources */,
+				ABC8E5FE285A6F0400F57C6E /* CardView.swift in Sources */,
 				ABC5460C28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +336,7 @@
 				DEVELOPMENT_TEAM = 25MBFXXLA7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FEMAdviceGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +366,7 @@
 				DEVELOPMENT_TEAM = 25MBFXXLA7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FEMAdviceGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
