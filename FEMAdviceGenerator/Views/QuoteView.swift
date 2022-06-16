@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+
+///MARK:
+/*
+    This is the "main view", the subviews are passed up to this view
+*/
+
 struct QuoteView: View {
     @StateObject var viewModel = ViewModel()
 
@@ -15,16 +21,11 @@ struct QuoteView: View {
             Color.black.ignoresSafeArea()
             CardView()
             VStack {
-            
-                
-               
-                VStack {
-                    AdviceView()
-                        .padding(.top, 150)
-                }
+                AdviceView()
+                    .padding(.top, 200)
                    
                 DiceIconView()
-                    .position(x: 195, y: 115)
+                    .position(x: 195, y: 65)
                     
             }
             

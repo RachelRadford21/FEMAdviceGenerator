@@ -8,6 +8,10 @@
 import Foundation
 import SwiftUI
 
+
+///MARK:
+/// An extension for custom colors provided by Front End Mentor.
+
 extension Color {
 //   Primary:
 //    - Light Cyan: hsl(193, 38%, 86%)
@@ -24,6 +28,9 @@ extension Color {
     static let darkGrayBlue = Color(#colorLiteral(red: 0.2511393428, green: 0.273085773, blue: 0.3048143983, alpha: 1))
     static let darkBlue = Color(#colorLiteral(red: 0.1628813446, green: 0.1814428568, blue: 0.2106072009, alpha: 1))
 }
+
+///Mark:
+/// An extension for the custom font provided by Front End Mentor
 
 extension Font {
     static var manrope: Font {

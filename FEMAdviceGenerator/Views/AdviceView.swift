@@ -7,21 +7,25 @@
 
 import SwiftUI
 
+
+///MARK:
+/*
+    This view is responsible for displaying the pices of advice. The Text view in this view shows the "opening text" when the app isnt started. It then shows the advice from the api call after the dice is pressed.
+*/
 struct AdviceView: View {
     @EnvironmentObject var viewModel: ViewModel
     var body: some View {
         
-        VStack {
-            Text(viewModel.isStarted ? viewModel.randomAdvice?.slip.advice ?? "" : "Press Button To Get Advice")
+            Text(viewModel.isStarted ? viewModel.randomAdvice?.slip.advice ?? "" : viewModel.openingText)
                 .font(.title)
                 .fontWeight(.bold)
                 .font(.custom("manrope",size: 0, relativeTo: .caption))
                 .multilineTextAlignment(.leading)
                 .foregroundColor(Color.lightCyan)
-                .frame(width: 250, height: 300, alignment: .leading)
+                .frame(width: 300, height: 300, alignment: .leading)
                 .lineLimit(10)
-            .scaledToFit()
-        }
+                .scaledToFit()
+
     }
    
 }

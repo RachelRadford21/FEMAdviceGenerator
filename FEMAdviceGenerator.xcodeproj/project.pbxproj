@@ -76,18 +76,17 @@
 		ABC5460A28592E5B00E8C096 /* FEMAdviceGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				AB717A8B285A33CB009C61B0 /* Info.plist */,
 				ABC5460B28592E5B00E8C096 /* FEMAdviceGeneratorApp.swift */,
-				ABC5461A28592FA000E8C096 /* ViewModel.swift */,
+				AB717A8C285A3490009C61B0 /* Extensions.swift */,
 				ABC5460D28592E5B00E8C096 /* ContentView.swift */,
-				ABC5461C28592FC500E8C096 /* Model */,
 				ABC5461928592F6400E8C096 /* Views */,
+				ABC5461C28592FC500E8C096 /* Model */,
 				ABC5460F28592E5C00E8C096 /* Assets.xcassets */,
 				AB717A87285A3369009C61B0 /* icon-dice.svg */,
 				AB717A85285A3357009C61B0 /* pattern-divider-mobile.svg */,
 				AB717A89285A3390009C61B0 /* Manrope-Regular.ttf */,
 				ABC5461128592E5C00E8C096 /* Preview Content */,
-				AB717A8C285A3490009C61B0 /* Extensions.swift */,
+				AB717A8B285A33CB009C61B0 /* Info.plist */,
 			);
 			path = FEMAdviceGenerator;
 			sourceTree = "<group>";
@@ -108,6 +107,7 @@
 				ABC8E5FB285A661300F57C6E /* AdviceView.swift */,
 				ABC8E5F7285A642500F57C6E /* DiceIconView.swift */,
 				ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */,
+				ABC8E5FF285BA0FA00F57C6E /* ViewModel */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +119,14 @@
 				ABC5461F2859300E00E8C096 /* SlipModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ABC8E5FF285BA0FA00F57C6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5461A28592FA000E8C096 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
