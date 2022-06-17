@@ -10,22 +10,25 @@ import SwiftUI
 
 ///MARK:
 /*
-    This view is created the dice button view. When the buttton is pressed it toggles isStarted. This will created a glow effect around the button once the user presses it to start displaying the advice.
+    This view is created the dice button view. It has 3
+    When the buttton is pressed it toggles isStarted. This will created a glow effect around the button once the user presses it to start displaying the advice.
     The fetchData() func is called once the button pressed to get advice.
+    The button will also present a diff number for the AdviceNumHeaderView
 */
 struct DiceIconView: View {
     @EnvironmentObject var viewModel: ViewModel
     var body: some View {
-        ZStack {
-            Button {
-                viewModel.isStarted = true
-                
-                Task{
-                    await viewModel.fetchData()
-                }
+     
+        Button {
+            viewModel.isStarted = true
+          Task{
+            await viewModel.fetchData()
+              }
+            viewModel.randomNum = Int.random(in: 1...300)
             } label: {
                 
                 Image("icon-dice")
+                    .shadow(color: viewModel.isStarted ? Color.black : Color.neonGreen, radius: viewModel.isStarted ? 1 : 0)
                     .background(
                         Circle()
                             .foregroundColor(Color.neonGreen)
@@ -35,11 +38,8 @@ struct DiceIconView: View {
                     )
                     .shadow(color: Color.neonGreen, radius: viewModel.isStarted ? 6 : 0)
             
-            }
-
         }
     }
-    
 }
 
 struct DiceIconView_Previews: PreviewProvider {

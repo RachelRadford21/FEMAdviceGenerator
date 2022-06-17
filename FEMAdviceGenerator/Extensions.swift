@@ -15,9 +15,9 @@ import SwiftUI
 extension Color {
 //   Primary:
 //    - Light Cyan: hsl(193, 38%, 86%)
-//    - Neon Green: hsl(150, 100%, 66%)
+//    - Neon Green: hsl(150, 100%, 66%) -> i used 77%        brightness, 88% sat
     static let lightCyan = Color(#colorLiteral(red: 0.5969958305, green: 0.8268129826, blue: 0.8850031495, alpha: 1))
-    static let neonGreen = Color(#colorLiteral(red: 0, green: 0.7056804299, blue: 0.4107287526, alpha: 1))
+    static let neonGreen = Color(#colorLiteral(red: 0.09209052157, green: 0.7680741374, blue: 0.4855347713, alpha: 1))
     
 //   Neutral:
 //    - Grayish Blue: hsl(217, 19%, 38%)

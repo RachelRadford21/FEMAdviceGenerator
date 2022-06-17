@@ -22,7 +22,7 @@ class ViewModel: ObservableObject {
    
     @Published var randomAdvice: Advice?
     @Published var currentPage: Pages = .page1
-    @Published var randomNum = Int.random(in: 1...300)
+    @Published var randomNum = 0
     @Published var isStarted = false
     @Published var openingText = "Press Dice For Advice"
     

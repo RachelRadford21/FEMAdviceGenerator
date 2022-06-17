@@ -21,8 +21,14 @@ struct AdviceNumHeaderView: View {
     var body: some View {
         
         VStack {
-            Text(viewModel.isStarted ? "Advice #\(viewModel.randomNum)" : "")
+            
+            Text(viewModel.isStarted ? "A D V I C E  # \(viewModel.randomNum)" : "")
+                .font(.caption)
+                .fontWeight(.bold)
+                .font(.custom("manrope", size: 0))
                 .foregroundColor(Color.neonGreen)
+            
+                
         }
     }
 }

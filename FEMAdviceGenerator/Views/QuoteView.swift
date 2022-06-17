@@ -10,25 +10,18 @@ import SwiftUI
 
 ///MARK:
 /*
-    This is the "main view", the subviews are passed up to this view
+    This is the "main view", the subviews are passed up to the cardview and then cardview is passed to this view
 */
 
 struct QuoteView: View {
     @StateObject var viewModel = ViewModel()
-
+    
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-            CardView()
-            VStack {
-                AdviceView()
-                    .padding(.top, 200)
-                   
-                DiceIconView()
-                    .position(x: 195, y: 65)
-                    
-            }
-            
+
+                    CardView()
+
         }
         
     }
@@ -38,5 +31,6 @@ struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
         QuoteView()
             .environmentObject(ViewModel())
+            //.previewInterfaceOrientation(.landscapeLeft)
     }
 }
