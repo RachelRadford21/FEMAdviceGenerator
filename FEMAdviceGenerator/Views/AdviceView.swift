@@ -23,7 +23,7 @@ struct AdviceView: View {
                 .font(.custom("manrope",size: 0, relativeTo: .caption))
                 .multilineTextAlignment(.leading)
                 .foregroundColor(Color.lightCyan)
-                .frame(width: 300, height: 300, alignment: .leading)
+                .frame(width: 300, height: 300, alignment: .center)
                 .background(Color.clear)
                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
                 .lineLimit(10)

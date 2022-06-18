@@ -31,6 +31,7 @@ struct QuoteView_Previews: PreviewProvider {
     static var previews: some View {
         QuoteView()
             .environmentObject(ViewModel())
+            .previewInterfaceOrientation(.portraitUpsideDown)
             //.previewInterfaceOrientation(.landscapeLeft)
     }
 }

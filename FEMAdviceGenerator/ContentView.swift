@@ -9,6 +9,9 @@ import SwiftUI
 
 ///MARK:
 /*
+ This app was tested using iphone 12, it works on other
+ screen sizes, but the button is off and the quote is
+ a little misaligned
  enum to allow us to add pages/screen views to app
  */
 enum Pages {
@@ -35,6 +38,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(ViewModel())
+            .previewInterfaceOrientation(.landscapeLeft)
             //.previewInterfaceOrientation(.landscapeRight)
     }
 }

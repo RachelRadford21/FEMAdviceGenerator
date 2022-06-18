@@ -104,9 +104,9 @@
 			children = (
 				ABC546232859306600E8C096 /* QuoteView.swift */,
 				ABC8E5FD285A6F0400F57C6E /* CardView.swift */,
+				ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */,
 				ABC8E5FB285A661300F57C6E /* AdviceView.swift */,
 				ABC8E5F7285A642500F57C6E /* DiceIconView.swift */,
-				ABC8E5F9285A651B00F57C6E /* AdviceNumHeaderView.swift */,
 				ABC8E5FF285BA0FA00F57C6E /* ViewModel */,
 			);
 			path = Views;
