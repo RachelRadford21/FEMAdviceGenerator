@@ -27,8 +27,8 @@ struct CardView: View {
                     RoundedRectangle(cornerRadius: 20)
                         .foregroundColor(Color.darkBlue)
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 150)
+                        .padding(.horizontal,geo.size.height * 0.03)
+                        .padding(.vertical, geo.size.width * 0.40)
                         .overlay {
                             AdviceNumHeaderView()
                                 .position(x: geo.size.width * 0.50, y: geo.size.height * 0.29)

@@ -17,7 +17,7 @@ struct AdviceView: View {
     @EnvironmentObject var viewModel: ViewModel
     var body: some View {
         
-            Text(viewModel.isStarted ? viewModel.randomAdvice?.slip.advice  ?? "" : viewModel.openingText)
+        Text(viewModel.isStarted ? viewModel.randomAdvice!.slip.advice : viewModel.openingText)
                 .font(.title)
                 .fontWeight(.bold)
                 .font(.custom("manrope",size: 0, relativeTo: .caption))
