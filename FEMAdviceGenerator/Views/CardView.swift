@@ -32,8 +32,9 @@ struct CardView: View {
                         .overlay {
                             AdviceNumHeaderView()
                                 .position(x: geo.size.width * 0.50, y: geo.size.height * 0.29)
+                            
                             AdviceView()
-                                .position(x: geo.size.width * 0.60, y: geo.size.height * 0.45)
+                                .position(x: geo.size.width * 0.50, y: geo.size.height * 0.45)
                             Image("pattern-divider-mobile")
                                 .position(x: geo.size.width * 0.495, y: geo.size.height * 0.72)
                             DiceIconView()
@@ -51,7 +52,7 @@ struct CardView: View {
                             AdviceNumHeaderView()
                                 .position(x: geo.size.width * 0.48, y: geo.size.height * 0.12)
                             AdviceView()
-                                .position(x: geo.size.width * 0.56, y: geo.size.height * 0.45)
+                                .position(x: geo.size.width * 0.5, y: geo.size.height * 0.45)
                             Image("pattern-divider-mobile")
                                 .position(x: geo.size.width * 0.499, y: geo.size.height * 0.80)
                             DiceIconView()
@@ -69,7 +70,7 @@ struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView()
             .environmentObject(ViewModel())
-            .previewInterfaceOrientation(.portraitUpsideDown)
+            .previewInterfaceOrientation(.landscapeRight)
             //.previewInterfaceOrientation(.portraitUpsideDown)
     }
 }

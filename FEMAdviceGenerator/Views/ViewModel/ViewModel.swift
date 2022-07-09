@@ -25,7 +25,7 @@ class ViewModel: ObservableObject {
     @Published var randomNum = 0
     @Published var isStarted = false
     @Published var openingText = "Press Dice For Advice"
-    
+    @Published var quote = ""
     func fetchData() async {
         guard let url = URL(string: "https://api.adviceslip.com/advice") else { return }
         
@@ -39,7 +39,7 @@ class ViewModel: ObservableObject {
             }
             let decodedResponse = try? JSONDecoder().decode(Advice.self, from: data)
             self.randomAdvice = decodedResponse
-           
+           quote = randomAdvice?.slip.advice ?? ""
         }catch {
             print("Failed to reach end point: \(error)")
         }

@@ -38,7 +38,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(ViewModel())
-            .previewInterfaceOrientation(.landscapeLeft)
+            .previewInterfaceOrientation(.portraitUpsideDown)
             //.previewInterfaceOrientation(.landscapeRight)
     }
 }
