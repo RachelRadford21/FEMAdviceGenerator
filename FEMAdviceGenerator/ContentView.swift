@@ -19,7 +19,8 @@ enum Pages {
 }
 
 /*
-    Using a switch statement to pass views throughout app. Also, the "entry point" to app, where you should start the app.
+    Using a switch statement to pass views throughout app. Also, the "entry point" to app, where you should start the app. Not viewing the previews from her will cause the app to not function properly or could cause the UI to be off.
+    
  */
 struct ContentView: View {
     

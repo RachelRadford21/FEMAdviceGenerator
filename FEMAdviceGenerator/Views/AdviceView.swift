@@ -7,16 +7,9 @@
 
 import SwiftUI
 
-
-///MARK:
-/*
-    This view is responsible for displaying the pieces of advice. The Text view in this view shows the "opening text" when the app isn't started. It then shows the advice from the api call after the dice is pressed.
-    I tried to add quotes around the advice but escaping & using -> "\()" didn't work.
-*/
 struct AdviceView: View {
     @EnvironmentObject var viewModel: ViewModel
     var body: some View {
-        
         Text(viewModel.isStarted ? "\"\(viewModel.quote) \"" : viewModel.openingText)
                 .font(.title)
                 .fontWeight(.bold)
@@ -29,7 +22,6 @@ struct AdviceView: View {
                 .scaledToFit()
 
     }
-   
 }
 
 struct AdviceView_Previews: PreviewProvider {
